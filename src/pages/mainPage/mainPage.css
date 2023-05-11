@@ -1,0 +1,147 @@
+.header {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+}
+
+.logo-block {
+  display: flex;
+  margin: 24px 0px 24px 162px;
+}
+
+.logo-title {
+  color: #232134;
+}
+
+.jobs-block {
+  display: flex;
+  margin-left: 280px;
+}
+
+.jobs-title {
+  margin-right: 60px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232134;
+}
+
+.jobs-title:last-child {
+  margin-right: 0px;
+}
+
+.main {
+  display: flex;
+  margin: 40px 162px;
+}
+
+.filters-block {
+  height: 360px;
+  padding: 20px;
+  background: #ffffff;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select {
+  width: 275px;
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1px solid #d5d6dc;
+  border-radius: 8px;
+}
+
+.select select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: #333333;
+}
+
+.filters-submit {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 4px 20px;
+  gap: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  background: #5e96fc;
+  border-radius: 8px;
+  border: none;
+}
+
+.search-jobs {
+  width: 100%;
+  margin-left: 28px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0062cc;
+}
+
+.jobs {
+  height: 137px;
+  margin-top: 16px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #eaebed;
+  border-radius: 12px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pagination li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.pagination li a {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.active a {
+  background-color: #ccc;
+}
