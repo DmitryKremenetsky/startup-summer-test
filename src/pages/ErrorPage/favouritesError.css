@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.search-job {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.search-title {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #343a40;
+}
+
+.search-btn {
+  padding: 10px 24px;
+  gap: 10px;
+
+  width: 164px;
+  height: 42px;
+
+  /* Blue 100 */
+
+  background: #deecff;
+  color: #3b7cd3;
+  border-radius: 8px;
+  border: none;
+}

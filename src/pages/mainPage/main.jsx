@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
-import "./mainPage.css";
+import "./main.css";
 
 export default function MainPage() {
   const [setCurrentPage] = useState(0);
